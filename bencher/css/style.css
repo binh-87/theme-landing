@@ -1,0 +1,158 @@
+/* DETAILS
+==================================================
+
+	Landing Page Alo Authentic
+	Theme Url: http://alothemes.com/demo/authentic/
+	Author: Alothemes
+
+==================================================
+*/
+
+/* Import Goolge Font
+==================================================
+*/
+@font-face {
+    font-family: 'gotham';
+	src: url('../fonts/gotham/Gotham-Black.eot?') format('eot'), 
+	     url('../fonts/gotham/Gotham-Black.otf')  format('opentype'),
+	     url('../fonts/gotham/Gotham-Black.woff') format('woff'), 
+	     url('../fonts/gotham/Gotham-Black.ttf')  format('truetype'),
+	     url('../fonts/gotham/Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham';
+    src: url('../fonts/gotham/Gotham-Thin.eot?') format('eot'), 
+	     url('../fonts/gotham/Gotham-Thin.otf')  format('opentype'),
+	     url('../fonts/gotham/Gotham-Thin.woff') format('woff'), 
+	     url('../fonts/gotham/Gotham-Thin.ttf')  format('truetype'),
+	     url('../fonts/gotham/Gotham-Thin.svg#Gotham-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+body {
+	text-align: center;font-family: 'Poppins', sans-serif;
+}
+/*
+.main-content{
+    background-image: url('../images/img_1.jpg') ;
+    background-repeat:	no-repeat;
+	background-position:center top;
+	background-attachment: fixed;
+}*/
+.wrapper {background: none;margin:0 auto ;width:100% ;float:left ;}
+a{outline: none;}
+img{	height: auto;max-width: 100%;}
+a:hover,a:focus{outline: none;text-decoration: none;}
+/* Header */
+header{background-image: url('../images/bg-header.jpg') ;padding: 100px 0 200px;}
+.text-center.buy h2{margin: 90px 0;font-size: 50px;color:#fff;letter-spacing: -2px;}
+.btn-buy.custom-buy {border-color: #ffffff;border-radius: 0;color: #ffffff;font-size: 16px;font-weight: 500;height: 50px;line-height: 50px;padding: 0 30px;text-transform: uppercase;}
+.btn-buy.custom-buy:hover {background-color:#fe2740;border-color: #fe2740;color: #ffffff;}
+.thumb{	width: 100%;height: 527px;position: absolute;top: -257px;left: 0;z-index: 1;}
+.thumb img,.logo img,.star{margin: 0 auto;}
+
+/* Main content */
+.main-content{position:relative; background-color: #f3f3f3}
+.main1{clear: both;padding-top: 90px;}
+.heading-title {color: #fe2740;margin: 0 0 25px;text-transform: uppercase;}
+.heading-title.heading-title-features{color:#fff;}
+.tile-heading-header-footer{margin-top:90px;}
+.text_heading{margin: 25px auto;font-weight: 300;font-size: 16px;color: #3f3f3f;width: 800px;line-height: 35px;}
+.shop-name{margin-top: 50px;
+	margin-bottom: 60px;
+	font-weight: 500;font-size: 22px;color: #2f2f2f;text-transform: uppercase;display: block;text-align: center;}
+.image-bg{background-image: url('../images/bg-macbook.png'); width: 350px;height:333px;display:inline-block;position: relative;}
+.icon-new {
+    background-color: #d6644a;
+    border-radius: 50%;
+	 -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+	top:-35px;
+	z-index:9 ;
+	font-family: 'gotham';
+}
+.image-bg .image-shop-scroll{
+	background-position: center 0;
+	background-repeat: no-repeat;
+	position:absolute;width:322px;height:350px;top:14px;left:14px;
+}
+.image-bg .image-shop-scroll.image-shop-scroll-5{
+	background-color: #333333;
+    opacity: 0.2; 
+}
+/*.image-bg .glare{background: url('../images/glare.png') center 0 no-repeat;position:absolute;width:250px;height:300px;top:10px;right:59px;}*/
+.image-bg .image-shop-scroll{
+	transition: all 5s ease-out 0s;
+	-webkit-transition: all 5s ease-out 0s;
+	-moz-transition: all 5s ease-out 0s;
+	-ms-transition: all 5s ease-out 0s;
+	-o-transition: all 5s ease-out 0s;
+}
+.image-bg:hover .image-shop-scroll{
+	background-position: center 100%!important;
+}
+.link:hover .shop-name{
+	color: #ff4f4f!important;
+}
+.bg-parallax {background-attachment: fixed;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+/* features ============================================*/
+.features{background-image: url('../images/bg-features.jpg') ;padding: 90px 0 50px;}
+.feature{float: left;font-weight: bold;text-align: left;width: 100%;margin-bottom: 40px;}
+.feature .fa {height: 68px;width: 68px;background-color: rgba(255, 255, 255, 0.1);display: block;font-size: 150%;font-style: normal;line-height: 68px;color: #fff ;text-align: center;float: left;}
+.feature h4{font-size:20px;color:#fff;margin: 0 0 5px;}
+.feature span{display: block;font-size: 15px;font-weight: 300;line-height: 23px;color:#fff;}
+.feature .icon{float:left;margin: 0 28px 0 0;}
+.feature-text{padding-left:96px;}
+/* footer ============================================*/
+.footer {background-color: #f4f4f4;padding: 90px 0;border-top:1px solid #e6e6e6;}
+.footer .btn-buy.custom-buy{border-color:#a1a1a1;color:#2f2f2f;margin-top: 30px;}
+.footer .btn-buy.custom-buy:hover{border-color:#fe2740;color:#fff;}
+.footer address {margin: 0;}
+a {color: #ff4f4f;outline: medium none;}
+a:hover, a:focus {color: #fe2740;outline: medium none;text-decoration: none;}
+/* Custom font======================================================================================= */
+.text-center.buy h2,.heading-title,.feature h4{font-family: 'Montserrat', sans-serif;}
+.btn-buy.custom-buy{font-family: 'Poppins', sans-serif;}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.image-bg{background-size: 100% auto;width: 300px;height: 270px;}
+	.image-bg .image-shop-scroll {height: 300px;left: 12px;top: 12px;width: 276px;}
+}
+@media(max-width:767px) {
+	.text_heading{width:100%;}
+	.main1 {padding-top: 80px;}
+}
+/*$media (max-width: 480px) */
+@media (max-width: 480px) {
+	.image-bg {background-size: 100% auto;height: 290px;width: 320px;}
+	.image-bg .image-shop-scroll {
+	    background-position: center 0;
+	    background-repeat: no-repeat;
+	    height: 159px;
+	    left: 54px;
+	    position: absolute;
+	    top: 26px;
+	    width: 215px;
+	}
+	.glare { display: none;}
+}
+@media (max-width: 320px) {
+	.image-bg {width: 285px;height: 265px;}
+	.image-bg .image-shop-scroll {height: 153px;left: 34px;top: 14px;}
+}

@@ -1,0 +1,251 @@
+/* DETAILS
+==================================================
+
+	Landing Page Alo Themes
+	Theme Url: http://alothemes.com/
+	Author: Alo Themes
+
+==================================================
+*/
+
+/* Import Goolge Font
+==================================================
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Muli:300,300i,400,400i');
+/* Reset Style =================================== */
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #101010 !important;
+	background-color:#fff ;
+}
+p {	
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #222 ;
+	outline: none;
+}
+ol li, ul li {
+	list-style: none ;
+	outline: none;
+	border: 0;
+}
+a {
+	color: #494949;
+	outline: none;
+	/* transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s; */
+}
+a:focus {
+	outline: none;
+}
+a:hover{
+	text-decoration: none !important ;
+	color: #353434 ;
+}
+span{
+	color: #494949 ;
+	outline: none;
+}
+.btn {
+    background:none;
+    border: medium none;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 0px;
+    /*margin: 15px 30px;*/
+    outline: medium none;
+    padding: 25px 80px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+}
+.btn-1c:hover, .btn-1c:active {
+    color: #0E83CD;
+}
+.btn-1 {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.btn:before {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    text-transform: none;
+}
+.btn-1c:hover:after, .btn-1c:active:after {
+    width: 100%;
+}
+.btn-1c:after {
+    background: none repeat scroll 0 0 #ff8400;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+}
+.btn:after {
+    content: "";
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    z-index: -1;
+}
+
+/*.btn.bt-view-demo {margin: 0;
+    padding: 10px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    background-color: #e34f3b;#c00a27
+    transform: translate3D(-50%, -50%, 0);
+    color: #fff;}*/
+
+
+
+.main-menu, h1, h2, h3, h4, h5, h6,body{font-family: 'Muli', sans-serif;}
+.al-center{ text-align: center; }
+.pl0{ padding-left: 0 !important; }
+.pt0{ padding-top: 0 !important; }
+.pb0{ padding-bottom: 0 !important; }
+.pr0{ padding-right: 0 !important; }
+.ml0{ margin-left: 0 !important; }
+.alo1{ margin-top: 0 !important; }
+.mb0{ margin-bottom: 0 !important; }
+.mr0{ margin-right: 0 !important; }
+.bg-gray{ background-color: #f7f7f7; }
+.bg-black{ background-color: #000; }
+
+/* Header ============================================*/
+.header-container{background: url("../images/intro-bg.jpg") no-repeat 0 0;background-size: cover;background-attachment: fixed;}
+.header-container  .header-intro .header-button >  p {margin: 0;padding: 0;position: relative;z-index: 1;}
+.header-container  .header-intro{padding : 130px 0 170px;}
+.header-container  .header-intro .header-button {margin : 28px 0  0;}
+.header-container  .header-intro .header-button a {color: #fff;}
+.header-container  .header-intro .header-button a:hover {color: #fff;border:2px solid #df5c53;}
+.header-container  .header-intro .header-button .btn{border:2px solid #fff;padding : 15px 25px;text-transform :uppercase ;}
+.header-container h1 {margin-bottom: 0;margin-top: 0;padding: 55px 0 0;}
+.header-container a{color: #df5c53;}
+.header-container a:hover{color: #df5c53;}
+.header-intro h2{font-size: 50px;color: #fff;font-weight: bold;}
+.header-intro p{font-size: 48px;line-height: 48px;margin: 45px 0 0;color: #fff;}
+.purchase-button{padding: 42px 0 0;}
+.purchase-button > a {background: #e34f3b none repeat scroll 0 0;border-radius: 5px;color: #ffffff;display: inline-block;font-family: Montserrat;font-size: 16px;line-height: 50px;padding: 0 30px;white-space: nowrap;}
+.purchase-button > a:hover {background: #f5f5f5 none repeat scroll 0 0;color: #333333;}
+/* Main Menu ============================================*/
+.main-menu .logo{float: left;}
+.main-menu .menu-inner-wap{padding: 13px 0;}
+.main-menu{background-color: transparent;font-size: 16px;line-height: normal;padding: 0 30px;}
+.main-menu ul{display: block;margin: 0;}
+.main-menu li{display: inline-block;}
+.main-menu li a{color: #fff;padding: 0 10px;line-height: 110px;display: block;text-transform: uppercase;font-size: 14px;font-family: 'Montserrat', sans-serif;}
+.main-menu li a:hover{color: #df5c53;}
+/* feature ============================================*/
+.feature{float: left;font-weight: bold;text-align: left;width: 100%;margin-bottom: 19px;}
+.feature .icon{float:left;margin: 0 13px 0 0;}
+.feature-text{padding-left:65px;}
+.feature-text h4{padding: 0;margin:0;}
+.feature i {height: 50px; width: 50px;border-radius: 2px;display: block;font-size: 30px;font-style: normal;line-height: 50px;color: #e34f3b ; text-align: center;float: left;}
+.heading-title{font-size: 36px;color:#fff;margin-bottom: 0;}
+#master-wrapper  {text-align:center ;}
+.title p { color: #555555;font-size: 23px;font-weight: 300;line-height: 26px;margin: 0;}
+.title h2{color: #222222;font-size: 36px;font-weight: 300;margin: 0 0 10px;}
+.title h2 span {color: #e34f3b;font-family: 'Montserrat', sans-serif;font-size: 60px; font-weight: bold}
+.title-bg{padding: 40px 0;margin: 0 0 80px;}
+.cubic-inclined{width: 30px;height: 30px;margin-left: -15px;background-color: #000000;display: block;position: absolute;bottom: -54px;left: 50%;transform: rotate(-45deg);}
+.title-bg p{color: #aaa;font-size: 16px;font-weight: 300;margin-top: 20px;}
+.title h1:after {background-color: #333;content: "";display: block;height: 1px;margin: 0 auto;position: relative;top: 10px; width: 70px;}
+.title h1 {color : #333 ;font-weight: normal ;font-size: 250% ;text-transform: capitalize;}
+.title h1 a {color: #df5c53;}
+.section-content{padding:0 55px;}
+.demo-image {box-shadow: 0 0 5px #dddddd;height: 350px;margin: 5px;overflow: hidden;position: relative;}
+.image-bg{display: block;}
+.image-bg .image-shop-scroll{background-position: center 0;background-repeat: no-repeat;position:absolute;width:100%;height: 350px;top: 0px;left: 0px;}
+.image-bg .image-shop-scroll{transition: all 5s ease-out 0s;-webkit-transition: all 5s ease-out 0s;-moz-transition: all 5s ease-out 0s;-ms-transition: all 5s ease-out 0s;-o-transition: all 5s ease-out 0s;}
+.image-bg:hover .image-shop-scroll{background-position: center 100%!important;}
+.alothemes-demo{padding: 0 0 50px;}
+.alothemes-demo-featured{padding: 0px;}
+.shop-name{margin: 17px 0 15px;font-weight: normal;font-size: 18px;color: #222;display: block;text-align: center;}
+.default.link{outline: none;}
+.demo-link{font-family: 'Muli', sans-serif;outline: none;background-color: #e34f3b;color: #ffffff;border-radius: 2px;cursor: pointer;display: inline-block;height: 35px;line-height: 35px;margin: 0;overflow: visible;padding: 0 15px;vertical-align: top;width: auto;font-size: 18px;}
+.demo-link:hover{background-color: #494949;color: #ffffff;}
+/*.demo1-link,.demo2-link{display: none;}*/
+.demo2-link {display: none;}
+.img-responsive{margin:0 auto;}
+.featured-shop{margin-bottom: 30px;}
+.hot-sale{background-color: #fe2740;height: 50px;left: -8px;line-height: 46px;position: absolute;top: -8px;width: 50px;border-radius: 50%;}
+.hot-sale span{color: #ffffff;font-size: 16px;animation: 1s ease-in 0s normal none infinite running tooltip-animation;-moz-animation: 1s ease-in 0s normal none infinite running tooltip-animation;-webkit-animation: 1s ease-in 0s normal none infinite running tooltip-animation;-o-animation: 1s ease-in 0s normal none infinite running tooltip-animation;transition: all 0.2s ease-in-out 0s;}
+ @keyframes tooltip-animation {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+.install-qs {margin-top: 40px;}
+/* Tab ======================================*/
+.tab-container .tabs{margin: 30px 0;}
+.tabs li {list-style:none;display:inline;}
+.tabs a {padding:10px 20px;font-size: 15px;display:inline-block;text-transform: uppercase;background:#666;color:#fff;text-decoration:none;position: relative;}
+
+.tabs a.active,.tabs a:hover {background:#ff8400;color:#fff;outline: none;}
+.tabs a.active:after {background-color: #ff8400;bottom: -12px;left: 0;right: 0;display: block;height: 25px;margin: 0 auto;position: absolute;transform: rotate(-45deg);width: 25px;content: "";}
+/* Core Feature ======================================*/
+.core-feature .content h3{font-size: 20px;color: #292929;padding: 18px 0 8px;}
+/* footer ======================================*/
+.footer-bt { background: #030303 ; padding: 40px 0; float: left ;width: 100% ;}
+.footer-bt h1{ margin: 20px 0 ;}
+.footer-bt p{ color: #cbcbcb ; }
+.footer-bt p a{ color: #fff ; }
+.footer-bt p a:hover{ color: #FF9900 ; }
+.boxed h2{margin:0 50px 50px;}
+#master-wrapper ol.thumbnails h3{margin: 0;padding: 20px 0 0;line-height: normal;}
+#master-wrapper ol.thumbnails h3 a{text-decoration: none;text-transform: uppercase;padding: 0;margin: 0;line-height: normal;}
+.copyright-pd {padding-top: 20px;}
+/* Sticky ================================== */
+#alo-sticky-header {background-color: #000;display: none;transition: all 1s ease-in-out 0s;width: 100%;z-index: 999;}
+#alo-sticky-header.main-menu .menu-inner-wap{padding:0;}
+.header-container .logo-sticky h1{max-width: 170px;padding: 40px 0 0;}
+#alo-sticky-header .purchase-button{padding-top: 30px;}
+@media (min-width: 992px) and (max-width: 1200px) {
+	#alo-sticky-header{display: none !important;}
+	.purchase-button {padding: 0;text-align: center;}
+	.header-intro p {color: #fff;font-size: 35px;line-height: 35px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#alo-sticky-header{display: none !important;}
+	.main-menu .logo{float: none;}
+	.main-menu li a{line-height: 90px;padding: 0 5px;font-size: 12px;}
+	.purchase-button {padding: 0;text-align: center;}
+	.header-intro p {color: #fff;font-size: 35px;line-height: 35px;}
+}
+/* Iphone 5 landscape */
+@media(max-width:767px) {
+	#alo-sticky-header,.header-container .header-intro{display: none !important;}
+	.main-menu .logo{float: none;}
+	.main-menu li a{line-height: 90px;padding: 0 5px;font-size: 12px;}
+	.purchase-button {padding: 0 0 70px;text-align: center;}
+	.header-intro p {color: #fff;font-size: 35px;line-height: 35px;}
+	.demo-image{max-width: 300px;margin: 5px auto;}
+}
+/* width < 480px */
+@media only screen and (max-width: 479px) {
+	.title h2{font-size:25px;}
+	.title h2 span{font-size: 40px;}
+	.title p{font-size: 17px;}
+	.heading-title{font-size: 30px;}
+	.main-menu li a{line-height: normal;}
+}
+
