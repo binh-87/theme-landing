@@ -29,6 +29,8 @@ body {
     background-repeat:	no-repeat;
 	background-position:center top;
 	background-attachment: fixed;
+
+	background-color: #eee;
 }
 .wrapper {
 	background: none;
@@ -128,7 +130,7 @@ header{ background-image: url('../images/bg-head.jpg'); padding: 50px 0 100px 0;
 .image-bg .image-shop-scroll{
 	background-position: center 0;
 	background-repeat: no-repeat;
-	position:absolute;width:322px;height:192px;top:14px;left:14px;
+	position:absolute;width:322px;height:350px;top:14px;left:14px;
 }
 .image-bg .image-shop-scroll.image-shop-scroll-5{
 	background-color: #333333;
