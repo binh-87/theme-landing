@@ -905,11 +905,6 @@ body.loaded #preloader {
     border-radius: 100px;
 }
 
-
-
-
-
-
 .text-right {text-align: right; font-style: italic;}
 .customer-img {margin: 0 auto}
 
@@ -917,3 +912,4 @@ body.loaded #preloader {
 .higher-line-height {line-height: 35px;}
 .title.heading-title-features.text-center {margin-top: 60px;}
 .headerlayout-a {margin-bottom: 20px;}
+iframe {position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;}
