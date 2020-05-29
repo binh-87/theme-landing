@@ -55,6 +55,14 @@ fieldset {
 .no-padding {
     padding: 0
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row:before,
+.row:after {
+    display: none;
+}
 .ts__08 {
     -webkit-transition: all .8s cubic-bezier(.29, .04, .19, .98);
     -moz-transition: all .8s cubic-bezier(.29, .04, .19, .98);
@@ -540,7 +548,7 @@ body.loaded #preloader {
     width: 100%;
 }
 .navigation-background .navigation-menu .navbar-nav li a:hover {
-    color: #fff;
+    color: #fed700;
 }
 /*update*/
 .nav.navbar-nav.navbar-right {padding-top: 26px;}

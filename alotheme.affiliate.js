@@ -120,6 +120,15 @@ if(preview){
                         };
 
                     }
+                    var purchased = document.getElementsByClassName("buy-now");
+                    if(purchased.length){
+                        for (var i = purchased.length - 1; i >= 0; i--) {
+                            var btn = purchased[i];
+                            btn.href = linkRef;
+                            btn.target = "blank";
+                        };
+
+                    }
                 }, 1000); 
 
             }
