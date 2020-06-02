@@ -36,6 +36,7 @@
 
     jQuery(document).ready(function () {
 
+
         
        /* Preloader */
 		
@@ -65,6 +66,14 @@
                 $('.header-top-area').addClass('navigation-background');
             } else {
                 $('.header-top-area').removeClass('navigation-background');
+            }
+        });
+
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop() > 400) {
+                $('.header-top-area').addClass('fixed-menu');
+            } else {
+                $('.header-top-area').removeClass('fixed-menu');
             }
         });
 		
@@ -129,5 +138,6 @@
               
 		   
     });
+
 
    })(jQuery)
