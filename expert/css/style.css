@@ -147,7 +147,7 @@ header .top-main {width: 100%;text-align: center;position: absolute;bottom: 0px;
 .default.link{outline: none;}
 .demo-link{outline: none;background-color: #dbdbdb;color: #333333;border-radius: 2px;cursor: pointer;display: inline-block;height: 35px;line-height: 35px;margin: 0;overflow: visible;padding: 0 20px;text-transform: uppercase;vertical-align: top;width: auto;font-size: 14px;}
 .demo-link:hover{background-color: #ff8400;color: #ffffff;}
-.img-responsive{margin:0 auto;}
+img, .img-responsive{margin:0 auto;}
 .featured-shop{margin-bottom: 30px;}
 .hot-sale{background-color: #fe2740;height: 50px;left: -15px;line-height: 46px;position: absolute;top: -15px;width: 50px;border-radius: 50%;}
 .hot-sale span{color: #ffffff;font-size: 19px;animation: 1s ease-in 0s normal none infinite running tooltip-animation;-moz-animation: 1s ease-in 0s normal none infinite running tooltip-animation;-webkit-animation: 1s ease-in 0s normal none infinite running tooltip-animation;-o-animation: 1s ease-in 0s normal none infinite running tooltip-animation;transition: all 0.2s ease-in-out 0s;}
