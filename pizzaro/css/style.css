@@ -999,6 +999,64 @@ p.button-link {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.feature {
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 30px 20px 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+.feature .icon {
+    float: left;
+    margin: 0 13px 0 0;
+}
+.feature-text {
+    padding-left: 90px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.feature .la {
+    border-radius: 50%;
+    color: #bdcccf;
+    display: block;
+    float: left;
+    font-size: 60px;
+    font-style: normal;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    width: 80px;
+}
+.feature-text {
+    padding-left: 90px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.feature-text h4 {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 16px;
+}
+.feature-text span {
+    color: #999;
+    font-size: 14px;
+}
 .more-features {
     text-align: center;
 }
