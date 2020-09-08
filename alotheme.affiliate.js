@@ -57,6 +57,7 @@ if(preview){
                 // if(item['user'] !== username) return;
                 // var linkRef = item['url'] + affiliate;
                 var linkRef = ref_url + '?u=' + item['url'];
+                var linkRef = ref_url + '?u=' + 'https://themeforest.net/cart/add_items?item_ids=' + id;
                 // var linkRef = 'https://themeforest.net/cart/configure_before_adding/'+ref+'?license=regular&ref=alotheme';
                 var urlStd = location.protocol + '//' + location.host + location.pathname;
                 if(isInIFrame){
