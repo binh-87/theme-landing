@@ -57,11 +57,16 @@ img {
 .border-double{
     border:  5px double #dee2e6;
 }
-.padding15{
-    padding: 15px;
+.padding30{
+    padding: 30px;
 }
 .marginb100{
     margin-bottom: 100px;
+}
+.border2{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dee2e6;
 }
 .container-inner{
     max-width: 1575px;
@@ -544,8 +549,46 @@ ul.menu-nav li .sub-menu.megamenu .menu-item:hover > a::before {
     box-shadow: 0px 0px 15px 4px #f1f1f1;
 }
 .demos .item-full-screen .demo-image{
-    height: 166px;
+    height: 247px;
 }
+.demos .item-full-screen .demo-image .image-scroll{
+    height: 100%;
+}
+.demo.demo-nodo .demo-image{
+    position: relative;
+}
+.demo.demo-nodo .demo-image:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.demo-info-nodo{
+    position: absolute;
+    top: 0;
+    right: -24px;
+    color: #fff;
+    background-color: #8500ff;
+    padding: 5px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.demo-info-nodo:before{
+    content: "";
+    position: absolute;
+    border-width: 12px;
+    border-style: solid;
+    border-left-color: #8500ff;
+    border-top-color: #8500ff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    top: 100%;
+    right: 0;
+}
+.demo-info-nodo:before
 .item-full-screen .demo .demo-image .image-scroll{
     height: 166px;
 }
@@ -1303,6 +1346,28 @@ footer a.backtotop .icon-top {
 .theme-function .content .feature .feature-text{
     width: calc(100% - 40px);
     padding-left: 15px;
+}
+.quickedit-area .demo-info{
+    margin-top: 20px;
+}
+.quickedit-area .demo-info a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+    height: 47px;
+    line-height: 43px;
+    padding: 0 35px;
+    /* border-radius: 30px; */
+    background-color: #222222;
+    text-transform: uppercase;
+    border: 2px solid #222222;
+}
+.quickedit-area .demo-info a:hover{
+    background-color: transparent;
+    color: #222222;
 }
 
 /*----------------
