@@ -444,17 +444,54 @@ ul.menu-nav li .sub-menu.megamenu .menu-item:hover > a::before {
     border-color: #222222;
     color: #fff;
 }
+.header-text-content ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    font-size: 17px;
+    color: #222222;
+    margin-top: 30px;
+}
+.header-text-content ul li{
+    margin-bottom: 15px;
+}
+.header-text-content ul li:before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+.header-text-content ul li:hover{
+    color: red;
+}
 .section-heading .subtitle {
     color: #555555;
     font-size: 23px;
     font-weight: 300;
     line-height: 26px;
 }
+.section-description{
+    padding: 85px 0;
+}
 .section-demos {
     padding: 85px 55px 0;
 }
 .section-demos .section-heading {
     margin-bottom: 20px;
+}
+.section-advantages .fearute-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    height: 40px;
+}
+.section-advantages .item{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-advantages .item img{
+    max-width: 70px;
+    margin-bottom: 10px;
 }
 .section-intro {
     background-image: url('../images/bg2.jpg');
@@ -581,8 +618,8 @@ ul.menu-nav li .sub-menu.megamenu .menu-item:hover > a::before {
     position: absolute;
     border-width: 12px;
     border-style: solid;
-    border-left-color: #8500ff;
-    border-top-color: #8500ff;
+    border-left-color: #5e0ca9;
+    border-top-color: #5e0ca9;
     border-right-color: transparent;
     border-bottom-color: transparent;
     top: 100%;
@@ -1305,7 +1342,7 @@ footer a.backtotop .icon-top {
     position: relative;
     color: #222222;
     font-size: 50px;
-    display: inline-block;
+    display: block;
     white-space: nowrap;
     letter-spacing: 1px !important;
     overflow: hidden;
@@ -1369,7 +1406,21 @@ footer a.backtotop .icon-top {
     background-color: transparent;
     color: #222222;
 }
-
+.section-product-demo,
+.section-other-page,
+.section-footer-demo,
+.section-header-demo{
+    padding:  85px 0 0;
+}
+.section-footer-demo .section-heading,
+.section-header-demo .section-heading{
+    margin-bottom: 30px;
+}
+.section-footer-demo .demo-item,
+.section-header-demo .demo-item{
+    box-shadow: 0px 0px 15px 4px #aaaaaa;
+    margin-bottom: 30px;
+}
 /*----------------
 AUTO CLEAR 
 ----------------*/
