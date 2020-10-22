@@ -48,6 +48,9 @@ h6 {
 img {
     max-width: 100%;
 }
+strong{
+    color: #222222;
+}
 .collapse:not(.show){
     display: block;
 }
@@ -1117,6 +1120,12 @@ p.button-link {
     position: relative;
     margin-bottom: -75px;
 }
+.section-features .section-heading{
+    margin-bottom: 30px;
+}
+.section-features .section-subtitle{
+    margin-bottom: 0;
+}
 .more-features {
     text-align: center;
 }
@@ -1363,6 +1372,8 @@ footer a.backtotop .icon-top {
 .theme-function .content{
     position: relative;
     padding: 50px 30px 30px;
+    background-color: #fafafa;
+    border-color: #222222;
 }
 .theme-function .section-title{
     position: absolute;
@@ -1370,6 +1381,7 @@ footer a.backtotop .icon-top {
     left: 30px;
     background-color: #fff;
     padding: 5px 15px;
+    border: 5px double #222222;
 }
 .theme-function .content .feature{
     display: -ms-flexbox;
@@ -1380,6 +1392,7 @@ footer a.backtotop .icon-top {
 }
 .theme-function .content .feature .icon{
     font-size: 40px;
+    color: #222222;
 }
 .theme-function .content .feature .feature-text{
     width: calc(100% - 40px);
@@ -1407,6 +1420,10 @@ footer a.backtotop .icon-top {
     background-color: transparent;
     color: #222222;
 }
+.quickedit-area .demo-image{
+    height: auto;
+}
+
 .section-product-demo,
 .section-other-page,
 .section-footer-demo,
