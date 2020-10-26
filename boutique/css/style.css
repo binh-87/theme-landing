@@ -1120,9 +1120,6 @@ p.button-link {
     position: relative;
     margin-bottom: -75px;
 }
-.section-features .section-heading{
-    margin-bottom: 30px;
-}
 .section-features .section-subtitle{
     margin-bottom: 0;
 }
@@ -1426,16 +1423,13 @@ footer a.backtotop .icon-top {
 
 .section-product-demo,
 .section-other-page,
-.section-footer-demo,
-.section-header-demo{
+.multi-footer-header{
     padding:  85px 0 0;
 }
-.section-footer-demo .section-heading,
-.section-header-demo .section-heading{
+.multi-footer-header .section-heading{
     margin-bottom: 30px;
 }
-.section-footer-demo .demo-item,
-.section-header-demo .demo-item{
+.multi-footer-header .demo-item{
     box-shadow: 0px 0px 15px 4px #aaaaaa;
     margin-bottom: 30px;
 }
