@@ -110,7 +110,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["The Stunning Design.","The Best Magento Themes For Fashion"],    /* You can change the home section typing text from
+            strings: ["The Stunning Design.","The Best Magento Themes <br>For Fashion"],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
             typeSpeed: 50
           });
