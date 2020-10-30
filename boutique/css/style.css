@@ -144,8 +144,8 @@ strong{
     position: relative;
     /*height: 975px;*/
     min-height: 100vh;
-/*     background: rgb(129,181,207);
-    background: linear-gradient(135deg, rgba(129,181,207,1) 0%, rgba(255,255,255,1) 68%, rgba(70,147,184,1) 100%); */
+/*     background: rgb(85,191,245);
+    background: linear-gradient(135deg, rgba(85,191,245,1) 0%, rgba(255,255,255,1) 66%, rgba(59,162,214,1) 99%); */
 }
 .header-text-content h1 {
     color: #ffffff;
