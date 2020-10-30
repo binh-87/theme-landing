@@ -471,7 +471,7 @@ ul.menu-nav li .sub-menu.megamenu .menu-item:hover > a::before {
 .video-theme item:last-child{
     text-align: right;
 }
-.video-theme video{
+.video-theme iframe{
     vertical-align: middle;
     max-width: 100%;
 }
