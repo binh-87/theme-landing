@@ -895,7 +895,26 @@ body.loaded #preloader {
 .two-btn > a + a {
     margin-left: 20px;
 }
-
+.screenshot-thumb .label {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.screenshot-thumb .label.label-new {
+    background-color: #00aeef;
+}
+.screenshot-thumb .label.label-hot {
+    background-color: #f36;
+}
 
 
 /* Responsive */
